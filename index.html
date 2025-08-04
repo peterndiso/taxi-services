@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peter's Taxi Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #004aad; color: white; padding: 20px; text-align: center; }
+        section { padding: 20px; }
+        .car-image { width: 100%; max-width: 600px; border-radius: 10px; margin: 20px auto; display: block; }
+        .contact, .booking-form {
+            background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%; padding: 10px; margin-bottom: 10px;
+            border: 1px solid #ccc; border-radius: 5px;
+        }
+        button {
+            background: #004aad; color: white; border: none; padding: 10px 20px;
+            border-radius: 5px; cursor: pointer;
+        }
+        button:hover { background: #00307a; }
+        .whatsapp-chat {
+            position: fixed; bottom: 20px; right: 20px;
+            background: #25D366; color: white; border-radius: 50%;
+            width: 60px; height: 60px; font-size: 30px;
+            text-align: center; line-height: 60px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Peter's Online Taxi Services</h1>
+    <p>Reliable • Affordable • 24/7 Service</p>
+</header>
+
+<section>
+    <img src="mazda-cx5.jpg" alt="Mazda CX-5" class="car-image" />
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> <a href="tel:+254722608782">0722 608 782</a></p>
+         </p><form action="https://formsubmit.co/petersondistributors@gmail.com" method="POST"><p>
+        <p><strong>Service Area:</strong> Nairobi & Surrounding Areas</p>
+        <p><strong>Payments:</strong> Cash & M-Pesa Accepted</p>
+    </div>
+
+    <div class="booking-form">
+        <h2>Book a Ride</h2>
+        <form>
+           <form action="https://formsubmit.co/petersondistributors@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="pickup" placeholder="Pickup Location" required>
+      <input type="date" name="pickup_date" placeholder="Pickup Date" required>
+      <input type="time" name="pickup_time" placeholder="Pickup Time" required>
+      <input type="text" name="destination" placeholder="Destination" required>
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Taxi Booking!">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_autoresponse" value="Thank you for booking. We’ll contact you shortly.">
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</section>
+
+<a class="whatsapp-chat" href="https://wa.me/254722608782" target="_blank">💬</a>
+
+</body>
+</html>
